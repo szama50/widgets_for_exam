@@ -20,3 +20,38 @@ double Widget::int_getter()
 {
     return 0.1;
 }
+
+std::vector<std::string> Widget::str_vector_getter()
+{
+    return {};
+}
+
+std::vector<int> Widget::int_vector_getter()
+{
+    return {};
+}
+
+void Widget::string_setter(std::string)
+{
+    return;
+}
+
+void Widget::int_setter(int)
+{
+    return;
+}
+
+void Widget::str_vector_setter(std::vector<std::string>)
+{
+    return;
+}
+
+void Widget::int_vector_setter(std::vector<int>)
+{
+    return;
+}
+
+
+
+
+

@@ -14,6 +14,7 @@ public:
     void draw() override;
     void event_handle(genv::event) override;
     std::string string_getter() override;
+    void string_setter(std::string) override;
 };
 
 #endif // STATICTEXT_HPP

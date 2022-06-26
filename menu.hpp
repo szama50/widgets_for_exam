@@ -27,6 +27,9 @@ public:
     void erase_item_totally(int);
     void add_item(std::string,int);
     double int_getter() override;
+    std::vector<std::string> str_vector_getter() override;
+    void str_vector_setter(std::vector<std::string>) override;
+    void add_item_no_pos(std::string);
 };
 
 #endif // MENU_H

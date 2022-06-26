@@ -43,6 +43,13 @@ string Statictext::string_getter()
     return content;
 }
 
+void Statictext::string_setter(string new_str)
+{
+    content = new_str;
+}
+
+
+
 
 
 

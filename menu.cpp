@@ -135,6 +135,31 @@ double Menu::int_getter()
     return current_item;
 }
 
+vector<string> Menu::str_vector_getter()
+{
+    return content;
+}
+
+void Menu::str_vector_setter(vector<string> new_content)
+{
+    content = new_content;
+}
+
+void Menu::add_item_no_pos(string item)
+{
+    for (size_t i = 0; i < content.size(); i++)
+        if (content[i] == "")
+        {
+            content[i] = item;
+            return;
+        }
+    content.push_back(item);
+    return;
+}
+
+
+
+
 
 
 
